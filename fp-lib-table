@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name mBotBT)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name xBee)(type KiCad)(uri "$(KIPRJMOD)\\xBee.pretty")(options "")(descr ""))
+  (lib (name w_smd_cap)(type KiCad)(uri "$(KIPRJMOD)\\mod_smd_cap\\w_smd_cap.pretty")(options "")(descr ""))
+  (lib (name w_smd_trans)(type KiCad)(uri "$(KIPRJMOD)\\mod_smd_trans\\w_smd_trans.pretty")(options "")(descr ""))
+)
