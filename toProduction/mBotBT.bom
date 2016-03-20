@@ -1,0 +1,7 @@
+"ID";"参照記号";"パッケージ";"数";"名称";"Supplier and ref";
+1;"U101";"sot89";1;"TA48L033F";;;
+2;"P101";"Pin_Header_Straight_1x04";1;"CONN_01X04";;;
+3;"P102";"Pin_Header_Straight_1x03";1;"CONN_01X03";;;
+4;"U102";"XBee";1;"XBEE";;;
+5;"C101,C102";"CeramicC_SizeR_EIA-2012";2;"1.0u";;;
+

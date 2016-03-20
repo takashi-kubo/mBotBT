@@ -71,17 +71,6 @@ mBot-Side
 Text Notes 5800 1750 0    60   ~ 0
 BlueTooth-Side
 $Comp
-L LM1084IT-3.3/NOPB U101
-U 1 1 56B5416D
-P 4700 2500
-F 0 "U101" H 4900 2300 40  0000 C CNN
-F 1 "LM1084IT-3.3/NOPB" H 4400 2700 40  0000 L CNN
-F 2 "w_smd_trans:sot89" H 4700 2600 30  0001 C CIN
-F 3 "" H 4700 2500 60  0000 C CNN
-	1    4700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L CP_Small C101
 U 1 1 56B54795
 P 4250 2650
@@ -147,6 +136,20 @@ F 3 "" H 7000 2900 60  0000 C CNN
 	1    7000 2900
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6300 3000
+NoConn ~ 6300 2900
+NoConn ~ 6100 2800
+NoConn ~ 7900 2200
+NoConn ~ 7900 2300
+NoConn ~ 7900 2400
+NoConn ~ 7900 2500
+NoConn ~ 7900 2600
+NoConn ~ 7900 2700
+NoConn ~ 7900 2800
+NoConn ~ 7900 2900
+NoConn ~ 7900 3000
+NoConn ~ 7900 3200
+NoConn ~ 7900 3300
 Wire Wire Line
 	3850 2450 4300 2450
 Wire Wire Line
@@ -166,23 +169,18 @@ Wire Wire Line
 Wire Wire Line
 	5350 2250 3850 2250
 Wire Wire Line
-	5650 2450 5100 2450
-Wire Wire Line
-	5650 2050 5650 2450
+	5650 2450 5650 2050
 Wire Wire Line
 	5650 2200 6100 2200
 Wire Wire Line
 	5100 2850 5100 2750
 Connection ~ 4700 2850
 Wire Wire Line
-	5100 2450 5100 2550
-Wire Wire Line
 	4250 2750 4250 2850
 Connection ~ 4250 2850
 Wire Wire Line
 	4250 2050 4250 2550
 Connection ~ 4250 2450
-Connection ~ 5100 2450
 Wire Wire Line
 	4700 3050 3850 3050
 Wire Wire Line
@@ -200,20 +198,6 @@ Wire Wire Line
 Connection ~ 5100 2850
 Connection ~ 5650 2200
 Connection ~ 5800 3300
-NoConn ~ 6300 3000
-NoConn ~ 6300 2900
-NoConn ~ 6100 2800
-NoConn ~ 7900 2200
-NoConn ~ 7900 2300
-NoConn ~ 7900 2400
-NoConn ~ 7900 2500
-NoConn ~ 7900 2600
-NoConn ~ 7900 2700
-NoConn ~ 7900 2800
-NoConn ~ 7900 2900
-NoConn ~ 7900 3000
-NoConn ~ 7900 3200
-NoConn ~ 7900 3300
 Wire Wire Line
 	5650 3100 6100 3100
 Wire Wire Line
@@ -222,4 +206,20 @@ Wire Wire Line
 	3850 2350 4100 2350
 Wire Wire Line
 	4100 2350 4100 2850
+$Comp
+L MC78L08ACH U101
+U 1 1 56EE1811
+P 4700 2500
+F 0 "U101" H 4500 2700 50  0000 C CNN
+F 1 "TA48L033F" H 4700 2700 50  0000 L CNN
+F 2 "w_smd_trans:sot89" H 4700 2600 50  0000 C CIN
+F 3 "" H 4700 2500 50  0000 C CNN
+	1    4700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2450 5650 2450
+Wire Wire Line
+	5100 2550 5100 2450
+Connection ~ 5100 2450
 $EndSCHEMATC
